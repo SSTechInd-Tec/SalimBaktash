@@ -19,28 +19,28 @@ const MainContactButtons: NextComponentType<NextPageContext, {}, Props> = (
         target="_blank"
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
-        <IconBrandInstagram size={30} />
+        <IconBrandInstagram size={20} />
       </Link>
       <Link
         href={"https://www.linkedin.com/in/mohammad-salim-8453a729b"}
         target="_blank"
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
-        <IconBrandLinkedin size={30} />
+        <IconBrandLinkedin size={20} />
       </Link>
       <Link
         href={"https://github.com/SSTechInd-Tec"}
         target="_blank"
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
-        <IconBrandGithub size={30} />
+        <IconBrandGithub size={20} />
       </Link>
       <Link
         href={"https://t.me/StarkBak"}
         target="_blank"
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
-        <IconBrandTelegram size={30} />
+        <IconBrandTelegram size={20} />
       </Link>
     </div>
   );
