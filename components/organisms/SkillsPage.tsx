@@ -11,7 +11,7 @@ const SkillsPage: NextComponentType<NextPageContext, {}, Props> = (
     <div>
       <h1 className="text-4xl font-bold mb-5">My Skills</h1>
       <hr />
-      <div className="text-center my-5 w-10/12 m-auto">
+      <div className="text-center my-5 lg:w-10/12 m-auto">
         {programmingLanguages.map((skill) => (
           <SkillsBadge
             key={skill.skill}

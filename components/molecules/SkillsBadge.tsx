@@ -13,7 +13,7 @@ const SkillsBadge: NextComponentType<NextPageContext, {}, Props> = (
 ) => {
   return (
     <Link href={props.link}>
-      <div className="w-28 h-28 border-4 border-cyan-900 rounded-3xl p-6 m-3 inline-block">
+      <div className="w-28 h-28 border-4 border-cyan-900 rounded-3xl p-6 m-2 inline-block">
         <img
           src={props.photoLink}
           className="w-auto h-auto m-auto"
