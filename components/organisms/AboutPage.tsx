@@ -15,7 +15,7 @@ const AboutPage: NextPage = () => {
         <b>Desktop App Development</b>. Alongside those I&apos;m also skilled in{" "}
         <b>Cloud Computing</b> Technologies and Linux. You can explore my skills
         in{" "}
-        <Link className="underline text-blue-500" href={""}>
+        <Link className="underline text-blue-500" href={"/skills"}>
           Skills
         </Link>{" "}
         section.

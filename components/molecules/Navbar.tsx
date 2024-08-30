@@ -37,7 +37,7 @@ const Navbar: NextComponentType<NextPageContext, {}, Props> = (
               <Link href={"/about"}>About</Link>
             </li>
             <li>
-              <Link href={""}>Skills</Link>
+              <Link href={"/skills"}>Skills</Link>
             </li>
             <li>
               <Link href={""}>Experience</Link>
@@ -58,7 +58,7 @@ const Navbar: NextComponentType<NextPageContext, {}, Props> = (
             <Link href={"/about"}>About</Link>
           </li>
           <li>
-            <Link href={""}>Skills</Link>
+            <Link href={"/skills"}>Skills</Link>
           </li>
           <li>
             <Link href={""}>Experience</Link>

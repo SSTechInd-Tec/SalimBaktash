@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background: linear-gradient(to bottom, #262b32, #004a61);
-  height: 100vh;
-  margin: 0;
+  flex: 1; /* Ensures the body fills the remaining space */
 }
