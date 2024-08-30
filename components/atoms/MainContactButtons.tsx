@@ -1,5 +1,6 @@
 import {
   IconBrandGithub,
+  IconBrandGmail,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandTelegram,
@@ -15,11 +16,11 @@ const MainContactButtons: NextComponentType<NextPageContext, {}, Props> = (
   return (
     <div className="m-10 text-white sm:text-center lg:text-left">
       <Link
-        href={"https://www.instagram.com/starkbaktec/"}
+        href={"mailto:sstechnologyindtec@gmail.com"}
         target="_blank"
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
-        <IconBrandInstagram size={20} />
+        <IconBrandGmail size={20} />
       </Link>
       <Link
         href={"https://www.linkedin.com/in/mohammad-salim-8453a729b"}
@@ -41,6 +42,13 @@ const MainContactButtons: NextComponentType<NextPageContext, {}, Props> = (
         className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
       >
         <IconBrandTelegram size={20} />
+      </Link>
+      <Link
+        href={"https://www.instagram.com/starkbaktec/"}
+        target="_blank"
+        className="transition-shadow duration-700 ease-in-out hover:shadow-lg hover:shadow-gray-500 m-1 inline-block text-cyan-900 border-4 border-cyan-900 rounded-full font-bold p-2"
+      >
+        <IconBrandInstagram size={20} />
       </Link>
     </div>
   );

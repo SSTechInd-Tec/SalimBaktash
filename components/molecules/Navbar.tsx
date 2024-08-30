@@ -1,4 +1,5 @@
 import type { NextComponentType, NextPageContext } from "next";
+import Link from "next/link";
 
 interface Props {}
 
@@ -30,16 +31,19 @@ const Navbar: NextComponentType<NextPageContext, {}, Props> = (
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <Link href={"/home"}>Home</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link href={"/about"}>About</Link>
             </li>
             <li>
-              <a>Skills</a>
+              <Link href={""}>Skills</Link>
             </li>
             <li>
-              <a>Contacts</a>
+              <Link href={""}>Experience</Link>
+            </li>
+            <li>
+              <Link href={""}>Contacts</Link>
             </li>
           </ul>
         </div>
@@ -48,16 +52,19 @@ const Navbar: NextComponentType<NextPageContext, {}, Props> = (
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link href={"/home"}>Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <Link href={"/about"}>About</Link>
           </li>
           <li>
-            <a>Skills</a>
+            <Link href={""}>Skills</Link>
           </li>
           <li>
-            <a>Contacts</a>
+            <Link href={""}>Experience</Link>
+          </li>
+          <li>
+            <Link href={""}>Contacts</Link>
           </li>
         </ul>
       </div>
