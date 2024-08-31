@@ -93,6 +93,12 @@ export const programmingLanguages = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/120px-Tailwind_CSS_Logo.svg.png",
   },
   {
+    skill: "DaisyUI",
+    link: "https://daisyui.com",
+    photoLink:
+      "https://img.jsdelivr.com/raw.githubusercontent.com/saadeghi/daisyui-images/master/images/daisyui-logo/favicon-192.png",
+  },
+  {
     skill: "MantineUI",
     link: "https://mantine.dev/",
     photoLink:
@@ -145,6 +151,36 @@ export const programmingLanguages = [
     photoLink: "https://icon.icepanel.io/Technology/svg/Flutter.svg",
   },
   {
+    skill: "PyQt",
+    link: "https://www.qt.io/",
+    photoLink: "https://icon.icepanel.io/Technology/svg/Qt-Framework.svg",
+  },
+  {
+    skill: "Jupyter",
+    link: "https://jupyter.org/",
+    photoLink: "https://icon.icepanel.io/Technology/png-shadow-512/Jupyter.png",
+  },
+  {
+    skill: "NumPy",
+    link: "https://numpy.org/",
+    photoLink: "https://icon.icepanel.io/Technology/svg/NumPy.svg",
+  },
+  {
+    skill: "Pandas",
+    link: "https://pandas.pydata.org/",
+    photoLink: "https://icon.icepanel.io/Technology/png-shadow-512/Pandas.png",
+  },
+  {
+    skill: "Matplotlib",
+    link: "https://matplotlib.org/https://matplotlib.org/",
+    photoLink: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+  },
+  {
+    skill: "PyTorch",
+    link: "https://pytorch.org/",
+    photoLink: "https://icon.icepanel.io/Technology/svg/PyTorch.svg",
+  },
+  {
     skill: "PostgreSQL",
     link: "https://www.postgresql.org/",
     photoLink: "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
@@ -188,6 +224,11 @@ export const programmingLanguages = [
     skill: "Linux",
     link: "https://www.linux.org/v",
     photoLink: "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
+  },
+  {
+    skill: "Bash",
+    link: "https://www.gnu.org/software/bash/",
+    photoLink: "https://icon.icepanel.io/Technology/png-shadow-512/Bash.png",
   },
   {
     skill: "Docker",
