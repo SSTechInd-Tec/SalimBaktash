@@ -1,6 +1,6 @@
 import type { NextComponentType, NextPageContext } from "next";
 import SkillsBadge from "../molecules/SkillsBadge";
-import { programmingLanguages } from "@/skills";
+import { skills } from "@/skills";
 
 interface Props {}
 
@@ -12,7 +12,7 @@ const SkillsPage: NextComponentType<NextPageContext, {}, Props> = (
       <h1 className="text-4xl font-bold mb-5">My Skills</h1>
       <hr />
       <div className="text-center my-5 lg:w-10/12 m-auto">
-        {programmingLanguages.map((skill) => (
+        {skills.map((skill) => (
           <SkillsBadge
             key={skill.skill}
             skill={skill.skill}

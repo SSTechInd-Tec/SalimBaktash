@@ -1,4 +1,4 @@
-export const programmingLanguages = [
+export const skills = [
   {
     skill: "Python",
     link: "https://www.python.org/",
