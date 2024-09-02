@@ -44,7 +44,7 @@ const AboutPage: NextPage = () => {
       </p>
       <p className="mt-5">
         My favorite color is <b>Blue</b> and colors that are like blue (like the
-        colors of this site) And my favorite color pet are <b>Cats</b>.
+        colors of this site) And my favorite pet are <b>Cats</b>.
       </p>
     </div>
   );
