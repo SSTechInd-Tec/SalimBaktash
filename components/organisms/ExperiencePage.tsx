@@ -18,6 +18,7 @@ const ExperiencePage: NextComponentType<NextPageContext, {}, Props> = (
       <hr />
       {experiences.map((experience) => (
         <ExperienceSectionItem
+          key={experience.title}
           title={experience.title}
           description={experience.description}
           imageLink={experience.imageLink}
